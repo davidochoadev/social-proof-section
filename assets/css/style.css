@@ -1,4 +1,6 @@
 @import url('main.css');
+@import url('reviews.css');
+@import url('votes.css');
 @import url('footer.css');
 
 :root {

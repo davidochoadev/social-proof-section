@@ -1,0 +1,20 @@
+.voting-stars__container {
+   list-style: none;
+}
+
+.voting__container {
+   background-color: var(--light-grayish-magenta);
+   margin: 1rem 0;
+   border-radius: .3rem;
+   padding: 1rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.voting__title {
+   color: var(--dark-magenta);
+   padding: .5rem 0 0 0;
+   font-size: 1.2rem;
+}
