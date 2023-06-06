@@ -21,3 +21,32 @@
    line-height: 1.8rem;
    min-width: 3rem;
 }
+
+@media (min-width: 1252px) {
+   .main__container {
+      max-width: 80%;
+      padding: 3rem 1.1rem;
+   }
+}
+
+
+@media (min-width: 40rem) {
+   .main__container {
+      max-width: 80%;
+   }
+   .introduction__container {
+      text-align: left;
+      padding-right: 3em;
+   }
+   .main__introduction__container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+   }
+   .introduction__container {
+      max-width: 50%;
+   }
+   .voting-stars__container {
+      max-width: 50%;
+   }
+}
