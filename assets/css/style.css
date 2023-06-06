@@ -1,0 +1,32 @@
+@import url('main.css');
+@import url('footer.css');
+
+:root {
+   --dark-magenta: hsl(300, 43%, 22%);
+   --soft-pink: hsl(333, 80%, 67%);
+
+   --grayish-magenta: hsl(303, 10%, 53%);
+   --light-grayish-magenta: hsl(300, 24%, 96%);
+   --white: hsl(0, 0%, 100%);
+
+   --transparent-white: hsla(0, 0%, 100%, 0.75);
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   color: var(--grayish-magenta);
+   box-sizing: border-box;
+}
+
+body {
+   min-height: 100vh;
+   background-color: var(--white);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-rendering: optimizeSpeed;
+   font-family: 'League Spartan', sans-serif;
+   font-weight: 400;
+}
