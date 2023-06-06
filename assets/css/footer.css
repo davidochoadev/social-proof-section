@@ -13,7 +13,7 @@
    background-color: var(--transparent-white);
 }
 .author__section > * {
-   color: var(--very-dark-blue);
+   color: var(--grayish-magenta);
    font-weight: 500;
 }
 .author__section > .author__spacer {
@@ -24,6 +24,6 @@
    transition: .3s ease-out;
 }
 .author__section > .author__anchor:hover {
-   color: var(--blue);
+   color: var(--dark-magenta);
 }
 /* ================================================================= */
