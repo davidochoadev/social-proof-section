@@ -5,12 +5,20 @@
 .voting__container {
    background-color: var(--light-grayish-magenta);
    margin: 1rem 0;
-   border-radius: .3rem;
+   border-radius: .5rem;
    padding: 1rem;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   transition-duration: .3s;
+   cursor: pointer;
+}
+.voting__container:hover {
+   background-color: var(--dark-magenta);
+}
+.voting__container:hover .voting__title {
+   color: var(--light-grayish-magenta);
 }
 
 .voting__title {
